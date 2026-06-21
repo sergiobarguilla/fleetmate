@@ -4,7 +4,7 @@
 - **Type:** tooling
 - **Status:** live
 - **Repo (git remote — never a local path):** git@github-sergiobarguilla:sergiobarguilla/fleetmate.git
-- **Live URL:** https://github.com/sergiobarguilla/fleetmate-product-os
+- **Live URL:** https://github.com/sergiobarguilla/fleetmate
 - **Belongs to:** [[01 - AI Track]]
 - **Last updated:** 2026-06-05
 
