@@ -24,7 +24,7 @@
 1. Learn whether drivers will proactively download routes before departure, or whether an automatic trigger is required
 2. Validate that a truck-capable offline routing engine with CEE coverage fits within the 150MB constraint on low-end Android devices
 3. Understand what percentage of negative App Store reviews are attributable to connectivity/signal loss
-4. Learn whether Growth-tier-only gating is commercially viable given Sygic Truck's all-tier offering
+4. Learn whether Growth-tier-only gating is commercially viable given Fleetmate Truck's all-tier offering
 5. Validate what the German fleet account team requires from Phase 1 for renewal — in writing
 6. Understand whether route-specific downloads are sufficient for the owner-operator segment
 
@@ -168,7 +168,7 @@ Because **38% of negative reviews cite connectivity as the primary failure, and 
 | Value | App Store rating recovery may lag even after offline complaints are resolved | Rating inertia — negative reviewers rarely return to re-rate even when the issue is fixed | Plan a targeted in-app rating prompt to satisfied offline users post-Phase 1 launch; do not rely on organic re-rating |
 | Usability | Auto-trigger may download routes too early or for cancelled trips, consuming storage and frustrating drivers | Auto-trigger on assignment is net better than manual, but edge cases (cancelled trips, reassigned routes) not tested | Design cache invalidation flow for cancelled/reassigned routes in Phase 1; add to Design scope |
 | Feasibility | OSM truck restriction accuracy for hazmat routes is below HERE SDK level | OSM data quality gap documented but not closed; hazmat carriers in the German fleet pilot could experience routing errors | Disclose to German fleet pilot drivers; instrument accuracy complaint rate post-launch; plan HERE upgrade for Phase 2 |
-| Viability | Year 2 revenue model depends on Growth-tier gating holding under commercial pressure | Sygic Truck competitive pressure remains; if gating is reversed post-launch, upsell revenue disappears | Commercial team must own the gating decision publicly before Phase 1 ships; no post-launch reversal without formal re-review |
+| Viability | Year 2 revenue model depends on Growth-tier gating holding under commercial pressure | Fleetmate Truck competitive pressure remains; if gating is reversed post-launch, upsell revenue disappears | Commercial team must own the gating decision publicly before Phase 1 ships; no post-launch reversal without formal re-review |
 
 ---
 

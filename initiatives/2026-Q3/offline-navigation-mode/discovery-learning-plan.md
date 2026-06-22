@@ -20,7 +20,7 @@
 1. Learn whether drivers will proactively download routes before departure, or whether an automatic trigger is required to achieve meaningful adoption
 2. Validate that a truck-capable offline routing engine with CEE coverage can be delivered within the 150MB app size constraint and perform reliably on low-end Android devices
 3. Understand what percentage of current negative App Store reviews cite connectivity or signal loss as the primary failure — to validate that offline mode will materially move the rating
-4. Learn whether Growth-tier-only gating is commercially viable given Sygic Truck's all-tier offline offering
+4. Learn whether Growth-tier-only gating is commercially viable given Fleetmate Truck's all-tier offline offering
 5. Validate what the German fleet account team specifically requires from Phase 1 to release their renewal commitment — in writing
 6. Understand whether route-specific downloads are sufficient for the owner-operator segment, or whether region/corridor-level coverage is required
 
@@ -102,7 +102,7 @@
 - **Learning objective(s):** Objective 4 (Growth-tier gating commercial viability)
 - **Risk area:** Viability
 - **Method:** Stakeholder interviews + internal data analysis
-- **Description:** Two parallel workstreams: (1) Commercial analysis — pull current Starter fleet count, identify how many have routes with offline risk (CEE, rural, long-haul corridors), estimate realistic upgrade addressable pool. Cross-check the 40% upgrade assumption against any prior upsell conversion data for Growth tier features. (2) 5–8 fleet owner conversations (Starter tier) — ask directly: if offline navigation were a Growth-only feature, would you upgrade? What would you pay? What would you do if you didn't upgrade (stay on Starter, use Sygic Truck instead, churn)? Do not mention pricing specifics — test intent and trade-off framing only.
+- **Description:** Two parallel workstreams: (1) Commercial analysis — pull current Starter fleet count, identify how many have routes with offline risk (CEE, rural, long-haul corridors), estimate realistic upgrade addressable pool. Cross-check the 40% upgrade assumption against any prior upsell conversion data for Growth tier features. (2) 5–8 fleet owner conversations (Starter tier) — ask directly: if offline navigation were a Growth-only feature, would you upgrade? What would you pay? What would you do if you didn't upgrade (stay on Starter, use Fleetmate Truck instead, churn)? Do not mention pricing specifics — test intent and trade-off framing only.
 - **Participants / data source:** Commercial team for data pull; 5–8 Starter-tier fleet owners (existing customers); Growth tier upsell history if available
 - **Owner:** [[TBD — Commercial lead + PM]]
 - **Estimated effort:** 5–7 days

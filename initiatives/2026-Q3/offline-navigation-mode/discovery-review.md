@@ -20,7 +20,7 @@
 - Conflict resolution for offline POD/sync (Phase 2) is a tractable problem solvable in 20 Backend MDs — no architecture work has begun
 
 ### Viability
-- Growth-tier-only gating is commercially defensible when Sygic Truck (the primary comparable) offers offline on all tiers
+- Growth-tier-only gating is commercially defensible when Fleetmate Truck (the primary comparable) offers offline on all tiers
 - ≥ 40% of Starter fleets will upgrade to Growth tier if offline is a Growth-only feature — this conversion rate has no basis in current data
 - Phase 1 technical delivery is sufficient to satisfy the German fleet account's renewal condition — what that account team specifically requires has not been formally scoped
 - Year 2 revenue of €80k–€150k assumes 60–120 fleet upgrades; the current Starter fleet count and its eligibility for upgrade are not stated
@@ -62,7 +62,7 @@
    - Consequence if ignored: Engineering begins on an architecture that must be abandoned mid-quarter. Q3 deadline is missed. German fleet renewal is lost. CFR guardrail is breached on launch.
 
 3. **Viability risk: Growth-tier gating is commercially untenable**
-   - Why it matters: The entire Year 2–3 revenue case (€80k–€400k) depends on offline being a Growth-tier-only feature driving upsell. Sygic Truck — the named competitor — offers offline on all tiers. If fleet owners and commercial teams view offline as a baseline expectation rather than a premium differentiator, gating it will generate commercial friction and may be reversed post-launch, eliminating the upsell revenue model. The 40% Starter → Growth upgrade assumption has no supporting data.
+   - Why it matters: The entire Year 2–3 revenue case (€80k–€400k) depends on offline being a Growth-tier-only feature driving upsell. Fleetmate Truck — the named competitor — offers offline on all tiers. If fleet owners and commercial teams view offline as a baseline expectation rather than a premium differentiator, gating it will generate commercial friction and may be reversed post-launch, eliminating the upsell revenue model. The 40% Starter → Growth upgrade assumption has no supporting data.
    - What would invalidate it: Commercial team analysis showing that < 20% of Starter fleets express willingness to upgrade for offline, or that the German fleet (and accounts like it) are on Growth tier already — meaning the upsell opportunity is concentrated in a smaller addressable pool than projected.
    - Consequence if ignored: Initiative ships with Growth-only gating, generates commercial complaints from Starter fleets, gating is reversed under pressure, Year 2 revenue model disappears, initiative is repriced as a retention feature with no upsell contribution.
 
@@ -74,7 +74,7 @@
 
 ### DP-1: What tier(s) will offline navigation be available on?
 - **Options:** (a) Growth tier only — offline as premium upsell driver (b) All paid tiers (Starter + Growth) — offline as retention feature, no upsell (c) All tiers including free driver app — offline as acquisition driver for fleet owner conversion
-- **What depends on this:** Entire Year 2–3 revenue model; commercial positioning vs. Sygic Truck; whether Starter fleet churn due to missing offline capability is the primary risk or secondary; metrics hierarchy (MAF growth vs. ARPF growth)
+- **What depends on this:** Entire Year 2–3 revenue model; commercial positioning vs. Fleetmate Truck; whether Starter fleet churn due to missing offline capability is the primary risk or secondary; metrics hierarchy (MAF growth vs. ARPF growth)
 - **Current default:** Growth-only (stated in birth certificate constraints)
 - **How to inform:** Commercial team analysis of current Starter fleet offline demand signals; competitive pricing review; willingness-to-pay signal from 5–10 Starter fleet owner conversations
 - **Decide by:** Before PRD
@@ -125,7 +125,7 @@
 - We need to learn whether drivers will proactively download routes before departure, or whether an automatic trigger (route assignment by dispatcher, departure time proximity, or connectivity forecast) is required to achieve meaningful adoption
 - We need to validate that a truck-capable offline routing engine with CEE coverage can be delivered within the 150MB app size constraint and perform reliably on low-end Android devices representative of the target driver fleet
 - We need to understand what specific percentage of current negative App Store reviews cite connectivity or navigation signal loss as the primary failure — to validate that offline mode will materially move the rating
-- We need to learn whether Growth-tier-only gating is commercially viable given Sygic Truck's all-tier offline offering — specifically whether Starter fleet owners will upgrade or will instead churn or complain
+- We need to learn whether Growth-tier-only gating is commercially viable given Fleetmate Truck's all-tier offline offering — specifically whether Starter fleet owners will upgrade or will instead churn or complain
 - We need to validate what the German fleet account team specifically requires from Phase 1 to release their renewal commitment — in writing, before scope is locked
 - We need to understand whether route-specific downloads are sufficient for the owner-operator segment, or whether region/corridor-level coverage is required given their routing flexibility
 
